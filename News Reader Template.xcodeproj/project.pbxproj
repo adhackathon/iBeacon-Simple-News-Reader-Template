@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D338F4F78C34CC9A68BFA96 /* libPods-News Reader Template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD7EB4E24AE41099B35A6F2 /* libPods-News Reader Template.a */; };
+		BA958538192E3C3F0068F34E /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA958537192E3C3F0068F34E /* StoryViewController.m */; };
+		BA9B1BA8192DE038008EFBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9B1BA7192DE038008EFBB0 /* Foundation.framework */; };
+		BA9B1BAA192DE038008EFBB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9B1BA9192DE038008EFBB0 /* CoreGraphics.framework */; };
+		BA9B1BAC192DE038008EFBB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9B1BAB192DE038008EFBB0 /* UIKit.framework */; };
+		BA9B1BB2192DE038008EFBB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9B1BB0192DE038008EFBB0 /* InfoPlist.strings */; };
+		BA9B1BB4192DE038008EFBB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B1BB3192DE038008EFBB0 /* main.m */; };
+		BA9B1BB8192DE038008EFBB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B1BB7192DE038008EFBB0 /* AppDelegate.m */; };
+		BA9B1BBA192DE038008EFBB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9B1BB9192DE038008EFBB0 /* Images.xcassets */; };
+		BA9B1BC1192DE038008EFBB0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9B1BC0192DE038008EFBB0 /* XCTest.framework */; };
+		BA9B1BC2192DE038008EFBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9B1BA7192DE038008EFBB0 /* Foundation.framework */; };
+		BA9B1BC3192DE038008EFBB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9B1BAB192DE038008EFBB0 /* UIKit.framework */; };
+		BA9B1BD7192DE187008EFBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9B1BD6192DE187008EFBB0 /* Main.storyboard */; };
+		BA9B1BDA192DEEAE008EFBB0 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B1BD9192DEEAE008EFBB0 /* NewsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA9B1BC4192DE038008EFBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9B1B9C192DE038008EFBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9B1BA3192DE038008EFBB0;
+			remoteInfo = "News Reader Template";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AFB1B74A018453F9F9517B7 /* Pods-News Reader Template.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News Reader Template.xcconfig"; path = "Pods/Pods-News Reader Template.xcconfig"; sourceTree = "<group>"; };
+		BA958536192E3C3F0068F34E /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		BA958537192E3C3F0068F34E /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		BA9B1BA4192DE038008EFBB0 /* News Reader Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News Reader Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9B1BA7192DE038008EFBB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA9B1BA9192DE038008EFBB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA9B1BAB192DE038008EFBB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA9B1BAF192DE038008EFBB0 /* News Reader Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "News Reader Template-Info.plist"; sourceTree = "<group>"; };
+		BA9B1BB1192DE038008EFBB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA9B1BB3192DE038008EFBB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9B1BB5192DE038008EFBB0 /* News Reader Template-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "News Reader Template-Prefix.pch"; sourceTree = "<group>"; };
+		BA9B1BB6192DE038008EFBB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA9B1BB7192DE038008EFBB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA9B1BB9192DE038008EFBB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA9B1BBF192DE038008EFBB0 /* News Reader TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "News Reader TemplateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9B1BC0192DE038008EFBB0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA9B1BD6192DE187008EFBB0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA9B1BD8192DEEAE008EFBB0 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		BA9B1BD9192DEEAE008EFBB0 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		EDD7EB4E24AE41099B35A6F2 /* libPods-News Reader Template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-News Reader Template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA9B1BA1192DE038008EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9B1BAA192DE038008EFBB0 /* CoreGraphics.framework in Frameworks */,
+				BA9B1BAC192DE038008EFBB0 /* UIKit.framework in Frameworks */,
+				BA9B1BA8192DE038008EFBB0 /* Foundation.framework in Frameworks */,
+				5D338F4F78C34CC9A68BFA96 /* libPods-News Reader Template.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9B1BBC192DE038008EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9B1BC1192DE038008EFBB0 /* XCTest.framework in Frameworks */,
+				BA9B1BC3192DE038008EFBB0 /* UIKit.framework in Frameworks */,
+				BA9B1BC2192DE038008EFBB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA9B1B9B192DE038008EFBB0 = {
+			isa = PBXGroup;
+			children = (
+				BA9B1BAD192DE038008EFBB0 /* News Reader Template */,
+				BA9B1BA6192DE038008EFBB0 /* Frameworks */,
+				BA9B1BA5192DE038008EFBB0 /* Products */,
+				4AFB1B74A018453F9F9517B7 /* Pods-News Reader Template.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9B1BA5192DE038008EFBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B1BA4192DE038008EFBB0 /* News Reader Template.app */,
+				BA9B1BBF192DE038008EFBB0 /* News Reader TemplateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9B1BA6192DE038008EFBB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B1BA7192DE038008EFBB0 /* Foundation.framework */,
+				BA9B1BA9192DE038008EFBB0 /* CoreGraphics.framework */,
+				BA9B1BAB192DE038008EFBB0 /* UIKit.framework */,
+				BA9B1BC0192DE038008EFBB0 /* XCTest.framework */,
+				EDD7EB4E24AE41099B35A6F2 /* libPods-News Reader Template.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9B1BAD192DE038008EFBB0 /* News Reader Template */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B1BD6192DE187008EFBB0 /* Main.storyboard */,
+				BA958536192E3C3F0068F34E /* StoryViewController.h */,
+				BA958537192E3C3F0068F34E /* StoryViewController.m */,
+				BA9B1BD8192DEEAE008EFBB0 /* NewsViewController.h */,
+				BA9B1BD9192DEEAE008EFBB0 /* NewsViewController.m */,
+				BA9B1BB9192DE038008EFBB0 /* Images.xcassets */,
+				BA9B1BAE192DE038008EFBB0 /* Supporting Files */,
+			);
+			path = "News Reader Template";
+			sourceTree = "<group>";
+		};
+		BA9B1BAE192DE038008EFBB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B1BB6192DE038008EFBB0 /* AppDelegate.h */,
+				BA9B1BB7192DE038008EFBB0 /* AppDelegate.m */,
+				BA9B1BAF192DE038008EFBB0 /* News Reader Template-Info.plist */,
+				BA9B1BB0192DE038008EFBB0 /* InfoPlist.strings */,
+				BA9B1BB3192DE038008EFBB0 /* main.m */,
+				BA9B1BB5192DE038008EFBB0 /* News Reader Template-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA9B1BA3192DE038008EFBB0 /* News Reader Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9B1BD0192DE038008EFBB0 /* Build configuration list for PBXNativeTarget "News Reader Template" */;
+			buildPhases = (
+				65B438EF5EBB44FB8C50F945 /* Check Pods Manifest.lock */,
+				BA9B1BA0192DE038008EFBB0 /* Sources */,
+				BA9B1BA1192DE038008EFBB0 /* Frameworks */,
+				BA9B1BA2192DE038008EFBB0 /* Resources */,
+				BE01652681194C8EA3B8DCC2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "News Reader Template";
+			productName = "News Reader Template";
+			productReference = BA9B1BA4192DE038008EFBB0 /* News Reader Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA9B1BBE192DE038008EFBB0 /* News Reader TemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9B1BD3192DE038008EFBB0 /* Build configuration list for PBXNativeTarget "News Reader TemplateTests" */;
+			buildPhases = (
+				BA9B1BBB192DE038008EFBB0 /* Sources */,
+				BA9B1BBC192DE038008EFBB0 /* Frameworks */,
+				BA9B1BBD192DE038008EFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9B1BC5192DE038008EFBB0 /* PBXTargetDependency */,
+			);
+			name = "News Reader TemplateTests";
+			productName = "News Reader TemplateTests";
+			productReference = BA9B1BBF192DE038008EFBB0 /* News Reader TemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9B1B9C192DE038008EFBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					BA9B1BBE192DE038008EFBB0 = {
+						TestTargetID = BA9B1BA3192DE038008EFBB0;
+					};
+				};
+			};
+			buildConfigurationList = BA9B1B9F192DE038008EFBB0 /* Build configuration list for PBXProject "News Reader Template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA9B1B9B192DE038008EFBB0;
+			productRefGroup = BA9B1BA5192DE038008EFBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9B1BA3192DE038008EFBB0 /* News Reader Template */,
+				BA9B1BBE192DE038008EFBB0 /* News Reader TemplateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA9B1BA2192DE038008EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9B1BD7192DE187008EFBB0 /* Main.storyboard in Resources */,
+				BA9B1BB2192DE038008EFBB0 /* InfoPlist.strings in Resources */,
+				BA9B1BBA192DE038008EFBB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9B1BBD192DE038008EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65B438EF5EBB44FB8C50F945 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE01652681194C8EA3B8DCC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-News Reader Template-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9B1BA0192DE038008EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA958538192E3C3F0068F34E /* StoryViewController.m in Sources */,
+				BA9B1BDA192DEEAE008EFBB0 /* NewsViewController.m in Sources */,
+				BA9B1BB8192DE038008EFBB0 /* AppDelegate.m in Sources */,
+				BA9B1BB4192DE038008EFBB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9B1BBB192DE038008EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA9B1BC5192DE038008EFBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9B1BA3192DE038008EFBB0 /* News Reader Template */;
+			targetProxy = BA9B1BC4192DE038008EFBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA9B1BB0192DE038008EFBB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9B1BB1192DE038008EFBB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA9B1BCE192DE038008EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA9B1BCF192DE038008EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA9B1BD1192DE038008EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFB1B74A018453F9F9517B7 /* Pods-News Reader Template.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "News Reader Template/News Reader Template-Prefix.pch";
+				INFOPLIST_FILE = "News Reader Template/News Reader Template-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA9B1BD2192DE038008EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFB1B74A018453F9F9517B7 /* Pods-News Reader Template.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "News Reader Template/News Reader Template-Prefix.pch";
+				INFOPLIST_FILE = "News Reader Template/News Reader Template-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA9B1BD4192DE038008EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/News Reader Template.app/News Reader Template";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "News Reader Template/News Reader Template-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "News Reader TemplateTests/News Reader TemplateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA9B1BD5192DE038008EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/News Reader Template.app/News Reader Template";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "News Reader Template/News Reader Template-Prefix.pch";
+				INFOPLIST_FILE = "News Reader TemplateTests/News Reader TemplateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA9B1B9F192DE038008EFBB0 /* Build configuration list for PBXProject "News Reader Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9B1BCE192DE038008EFBB0 /* Debug */,
+				BA9B1BCF192DE038008EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9B1BD0192DE038008EFBB0 /* Build configuration list for PBXNativeTarget "News Reader Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9B1BD1192DE038008EFBB0 /* Debug */,
+				BA9B1BD2192DE038008EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9B1BD3192DE038008EFBB0 /* Build configuration list for PBXNativeTarget "News Reader TemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9B1BD4192DE038008EFBB0 /* Debug */,
+				BA9B1BD5192DE038008EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA9B1B9C192DE038008EFBB0 /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-News Reader Template-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-News Reader Template-BlockRSSParser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-News Reader Template-EstimoteSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-News Reader Template.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>491B07198C0B425998F28FAE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5912AAF8FD154F78B280CB73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E314EDB1B7D5470FB2947AEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F109E9CC8EB94B5982DB012E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
